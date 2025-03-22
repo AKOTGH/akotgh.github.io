@@ -6,10 +6,11 @@ body {
 	background-color: #e7ffe7}
 a {
 padding: 10px;}
-nav, main, footer, {
+
+#nav, #main, #footer, {
 	background-color: #b5d5b5;
 	padding: 10px;
 	margin: 10px;
-border-style: groove;}
+	border-style: groove;}
 
 	
