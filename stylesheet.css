@@ -11,6 +11,8 @@ body {
 #content {
 	overflow: auto;
 	height: 100%;}
+	padding: 20px;
+
 .column1, .column2, .column3 {
 	float: left;
 	margin: 10px;}
