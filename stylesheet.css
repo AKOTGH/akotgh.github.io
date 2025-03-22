@@ -5,16 +5,17 @@ body {
 	background-color: #e7ffe7;}
 a {
 padding: 10px;}
-
 nav {
 	background-color: #b5d5b5;
 	padding: 10px;
 	margin: 10px;
-	border-style: groove;}
+	border-style: groove;
+	border-color: #003636;}
 main {
 	border-style: double;
-	padding: 0px;
-	margin: 0px;}
+	border-color: #003636;
+	padding: 5px;
+	margin: 15px;}
 footer {
 	position: fixed;
 	left: 0;
@@ -30,7 +31,7 @@ article {
 header {
 	text-align: center;}
 section {
-	text-align: left;}
+	text-align: left;} 
 
 
 	
