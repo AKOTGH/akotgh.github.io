@@ -1,0 +1,18 @@
+/* You should edit the content below to fit your website */
+
+* {
+	font-family: Georgia, sans-serif;
+	color: #333333;
+	text-align: left;}
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #ffffff}
+#content {
+	overflow: auto;
+	height: 100%;
+	padding: 20px;}
+.column1, .column2, .column3 {
+	float: left;
+	margin: 10px;}
