@@ -1,7 +1,6 @@
 * {
 	font-family: Georgia, serif;
 	color: #003636;
-	text-align: left;}
 body {
 	background-color: #e7ffe7}
 a {
@@ -12,11 +11,14 @@ nav, main, footer {
 	padding: 10px;
 	margin: 10px;}
 footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;}
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;}
 header {
-text-align: center;}
+	text-align: center;}
+section {
+	text-align: left;}
+
 
 	
