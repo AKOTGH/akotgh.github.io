@@ -3,12 +3,16 @@
 * {
 	font-family: Georgia, sans-serif;
 	color: #333333;
-	text-align: left;}
+	text-align: center;}
 
-.index header {
-  background-color: #001f3f;
-  color: white;
+.index {
+background-color: #e6f7ff;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
 }
+section {
+text-align: left;}
 body {
 	width: 960px;
 	margin: 0 auto;
