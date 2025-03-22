@@ -12,6 +12,11 @@ nav, main, footer {
 	padding: 10px;
 	margin: 10px;}
 footer {
-margin-bottom: 50px}
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;}
+header {
+text-align: center;}
 
 	
