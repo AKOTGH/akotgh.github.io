@@ -5,7 +5,7 @@
 }
 
 :root {
-  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-primary: 'Inter', Verdana, serif;
   --color-text: #333333;
   --color-background: #ffffff;
   --color-primary: #0066cc;
