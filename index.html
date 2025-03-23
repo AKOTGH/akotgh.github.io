@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>My Website</title>
+<title>About Me</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="stylesheet.css">
 <style>
-	* {
-	text-align: center;}
-	.image {
-	background-color: #b5d5b5;
+	.selfie {
+	text-align: center;
+	margin-left: 1010px;
+	margin-right: 1010px;
 	border-style: double;
-	border-color:  #003636;
+	border-color: #003636;
+	background-color: #b5d5b5;
 	padding: 10px;
-	margin-left: 500px;
-	margin-right: 500px;
 	margin-top: 10px;
-	margin-bottom: 10px;
-	}
+	margin-bottom: 10px;}
 </style>
-
-<body class="home">
+<body>
 	<header>
-		<h1>Welcome to my Website!</h1>
-		<p>I'm Alexander Kaminsky, a student at the University of Wisconsin-Madison taking LIS-351.</p>
+		<h1>About me...</h1>
 		<nav>
 			<a href="index.html">Home</a> 
 			<a href="Page1.html">About Me</a> 
@@ -31,15 +27,29 @@
 			<a href="Page4.html">Fun Facts</a>
 		</nav>
 	</header>
-		<main>
-			<p>Above are the links to my other pages.</p>
-		</main>
-		<div class="image">
-			<img src="madison-1809576_960_720.jpg" width="480" height="320" alt="Wisconsin State Capital, Madison">
+	<section>
+		<article>
+			<h2>My Interests</h2>
+			<ul>
+				<li>Cats</li>
+				<li>Video Games</li>
+				<li>Hamburgers</li>
+			</ul> 
+		</article>
+		<article>
+			<h2>Some other details about me</h2>
+			<dl>
+				<dt>Information Science</dt>
+				<dd>-My major at UWM</dd>
+				<dt>Lis 351</dt>
+				<dd>-Introduction to Digital Information, a course where I'm learning how to use HTML and CSS</dd>
+				<dt>May 2026</dt>
+				<dd>-My expected graduation date!</dd>
+			</dl>
+		</article>
+		<div class="selfie">
+			<img src="Selfie.jpg" width="232" height="309" alt="A photo of me!">
 		</div>
-	<footer>
-		<p>Alexander Kaminsky</p>
-		<p><a href="mailto:akaminsky2@wisc.edu">akaminsky2@wisc.edu</a></p>
-	</footer>
+	</section>
 </body>
 </html>
